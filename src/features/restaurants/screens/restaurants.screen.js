@@ -1,6 +1,6 @@
 import React from 'react';
 import { Searchbar } from 'react-native-paper';
-import styled from 'styled-components';
+import styled from 'styled-components/native';
 import { StatusBar, SafeAreaView } from 'react-native';
 import { RestaurantInfoCard } from '../components/restaurant-info-card.component';
 
@@ -10,13 +10,11 @@ const SafeArea = styled(SafeAreaView)`
 `;
 
 const SearchContainer = styled.View`
-  /* background-color: ${({ theme: { colors } }) => colors.bg.primary}; */
   padding: ${({ theme: { space } }) => space.sixteen};
 `;
 
 const RestaurantListContainer = styled.View`
   flex: 1;
-  /* background-color: ${({ theme: { colors } }) => colors.bg.primary}; */
   padding: ${({ theme: { space } }) => space.sixteen};
 `;
 
