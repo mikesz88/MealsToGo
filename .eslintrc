@@ -2,5 +2,11 @@
   "extends": [
     "@react-native-community",
     "prettier"
-  ]
+  ],
+  "rules": {
+    "react/no-unstable-nested-components": [
+      "warn",
+      { "allowAsProps": true }
+    ]
+  }
 }
